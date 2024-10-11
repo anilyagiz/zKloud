@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zKloud - Next Generation Cloud Hardware Rental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>zKloud</h1>
+        <p>Next Generation Cloud Hardware Rental on Solana</p>
+    </header>
+    <main>
+        <section id="hardware-list">
+            <!-- Hardware items will be dynamically added here -->
+        </section>
+        <section id="rental-form">
+            <h2>Rent Hardware</h2>
+            <form id="rent-form">
+                <label for="hardware-id">Hardware ID:</label>
+                <input type="text" id="hardware-id" required>
+                <label for="rental-duration">Rental Duration (hours):</label>
+                <input type="number" id="rental-duration" required>
+                <button type="submit">Rent Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 zKloud. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
